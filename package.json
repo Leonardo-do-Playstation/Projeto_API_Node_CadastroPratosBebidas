@@ -1,0 +1,27 @@
+{
+  "name": "projeto_api_node_cardapio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonardo-do-Playstation/Projeto_API_Node_Cardapio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonardo-do-Playstation/Projeto_API_Node_Cardapio/issues"
+  },
+  "homepage": "https://github.com/Leonardo-do-Playstation/Projeto_API_Node_Cardapio#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1"
+  }
+}
