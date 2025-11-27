@@ -2,7 +2,10 @@ import 'dotenv/config';
 import express from 'express';
 import mongoose from 'mongoose';
 
+const cors = require('cors');
 const app = express();
+
+app.use(cors());
 app.use(express.json()); // API vai aceitar json
 
 //Conectar no MongoDB
